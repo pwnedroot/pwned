@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Auto Tool" | /usr/bin/figlet | /usr/games/lolcat 
+echo "updating...." | /usr/games/lolcat
+sudo apt update -y 
+echo "upgrading...." | /usr/games/lolcat
+sudo apt upgrade -y
+echo "autoremoving...." | /usr/games/lolcat
+sudo apt autoremove -y 
+echo "cleaning...." | /usr/games/lolcat
+sudo apt clean -y
+echo "All Tasks Completed....Goodbye!" | /usr/games/lolcat
