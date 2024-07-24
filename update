@@ -1,11 +1,31 @@
 #!/bin/bash
-echo "Auto Tool" | /usr/bin/figlet | /usr/games/lolcat 
-echo "updating...." | /usr/games/lolcat
-sudo apt update -y 
-echo "upgrading...." | /usr/games/lolcat
+
+echo -e "\033[0;31m
+
+ _________        .-------------------.
+:______.-':      :  .--------------.  :
+| ______  |      | :                : |
+|:______B:|      | | Update Script: | |
+|:______B:|      | |                | |
+|:______B:|      | |   Created By:  | |
+|         |      | |   pwnedroot    | |
+|:_____:  |      | |                | |
+|    ==   |      | :                : |
+|       O |      :  '--------------'  :
+|       o |      :'---...______...---'
+|       o |-._.-i___/'             \._
+|'-.____o_|   '-.   '-...______...-'  \`-._
+:_________:      \`____________________   \`-.___.-.
+                 .'.eeeeeeeeeeeeeeeeee.'.      :___:
+               .'.eeeeeeeeeeeeeeeeeeeeee.'.
+              :____________________________:\033[0m"
+echo "Auto Tool Created By: pwnedroot" | /usr/games/lolcat
+echo "Updating...." | /usr/games/lolcat
+sudo apt update -y
+echo "Upgrading...." | /usr/games/lolcat
 sudo apt upgrade -y
-echo "autoremoving...." | /usr/games/lolcat
-sudo apt autoremove -y 
-echo "cleaning...." | /usr/games/lolcat
+echo "Autoremoving...." | /usr/games/lolcat
+sudo apt autoremove -y
+echo "Cleaning...." | /usr/games/lolcat
 sudo apt clean -y
-echo "All Tasks Completed....Goodbye!" | /usr/games/lolcat
+echo "All Tasks Completed....Goodbye From pwnedroot!" | /usr/games/lolcat
